@@ -1,3 +1,8 @@
+Happy Quizz 
+
+Valentin Waché de Corbie & Céline TIA
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
