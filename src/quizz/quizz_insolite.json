@@ -1,0 +1,293 @@
+[
+    {
+      "id": 1,
+      "question": "D'après vous, de quoi a peur un coulrophobe ?",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "Des couloirs",
+          "isCorrect": false
+        },
+        {
+          "answer_b": "Des clowns",
+          "isCorrect": true
+        },
+        {
+          "answer_c": "Des couleuvres",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "Des couleurs",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "Ça n'est pas un bruit de couloir, et je n'essaye pas de vous faire avaler des couleuvres ni la peur des couleurs mais la coulrophobie est bien la peur irraisonnée... des clowns !",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "La langue la plus parlée au monde est...",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "L'anglais",
+          
+          "isCorrect": false
+        },
+        {
+          "answer_b": "Le français",
+          "isCorrect": false
+        },
+        {
+          "answer_c": "Le chinois",
+          "isCorrect": true
+        },
+        {
+          "answer_d": "L'espagnol",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "Le chinois mandarin, avec plus de 955 millions de locuteurs natifs.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "question": "Si toute la pluie contenue dans l'atmosphère tombait en même temps , elle couvrirait la Terre d'une couche d'eau de...",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "10 cm",
+          "isCorrect": true
+        },
+        {
+          "answer_b": "5 cm",
+          "isCorrect": false
+        },
+        {
+          "answer_c": "15 cm",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "2.5 cm",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "Elle recouvrirait notre planète d'un manteau de 2,5 cm d'épaisseur (quand même !)",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 4,
+      "question": "Le chant des baleines à bosses peut atteindre...",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "150 décibels",
+          "isCorrect": false
+        },
+        {
+          "answer_b": "1500 décibels",
+          "isCorrect": false
+        },
+        {
+          "answer_c": "140 décibels",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "190 décibels",
+          "isCorrect": true
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": " Bruyantes, ces baleines: 190 décibels ! C'est autant qu'un Boeing 747 au décollage.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "question": "Le cœur de la crevette est placé...",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "Dans son tube digestif",
+          "isCorrect": false
+        },
+        {
+          "answer_b": "Dans sa tête",
+          "isCorrect": true
+        },
+        {
+          "answer_c": "Dans sa queue",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "Dans ses antennes",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "Une grande romantique, cette crevette ! Aussi étrange que cela puisse paraître, son cœur est situé dans sa tête.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 6,
+      "question": "Aucune feuille de papier, quelle que soit sa taille, ne peut être pliée sur elle-même plus de...",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "8 fois",
+          "isCorrect": false
+        },
+        {
+          "answer_b": "12 fois",
+          "isCorrect": false
+        },
+        {
+          "answer_c": "6 fois",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "7 fois",
+          "isCorrect": true
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": " Faites le test ! Vous ne pourrez pas plier votre feuille plus de 7 fois sur elle-même.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 7,
+      "question": "La distance entre le centre et la surface de la Terre est d'environ...",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "6300 km",
+          "isCorrect": true
+        },
+        {
+          "answer_b": "6200 km",
+          "isCorrect": false
+        },
+        {
+          "answer_c": "6000 km",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "6100 km",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "La Terre n'est pas parfaitement sphérique et les distances entre sa surface et son centre varient de 6 352,8 km (fond de l'océan Arctique) à 6 384,415 km (sommet du Chimborazo).",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 8,
+      "question": "Comment s'appelle l'un des animaux les plus stupides du monde ?",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "La loutre bigleuse",
+          "isCorrect": false
+        },
+        {
+          "answer_b": "Le Kakapo",
+          "isCorrect": true
+        },
+        {
+          "answer_c": "Le paresseux",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "l'âne",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "Il s'agit du Kakapo, un oiseau qui, à défaut d'avoir évolué au contact de prédateurs, n'a jamais appris à se défendre seul... et s'est complètement fait décimer.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "question": "A la naissance, notre squelette compte environ 270 os. Mais combien en dénombre-t-on une fois adulte ?",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "206",
+          "isCorrect": true
+        },
+        {
+          "answer_b": "230",
+          "isCorrect": false
+        },
+        {
+          "answer_c": "270",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "225",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "Un bébé naît avec environ 270 os mous. Les petits os au niveau du crâne, de la colonne vertébrale et du bassin durcissent et se soudent par la suite pour ne former qu’un ensemble. Ainsi, en bas de la colonne vertébrale, les quatre dernières vertèbres se collent entre elles pour ne plus former qu’un seul os : le coccyx. Quand ces soudures s’achèvent, vers 20/25 ans, il reste à l’adulte environ 206 os distincts. Ceux des mains et des pieds représentent plus de la moitié de l’effectif : 26 os pour un pied et 27 os pour une main. Viennent ensuite les vertèbres (24), les côtes (24), la tête (22)…",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "question": "A votre avis, combien de personnes fêtent leur anniversaire le même jour que vous dans le monde ?",
+      "description": "",
+      "answers": [
+        {
+          "answer_a": "9 millions",
+          "isCorrect": true
+        },
+        {
+          "answer_b": "900 000",
+          "isCorrect": false
+        },
+        {
+          "answer_c": "9 milliards",
+          "isCorrect": false
+        },
+        {
+          "answer_d": "90 000",
+          "isCorrect": false
+        }
+      ],
+      "multiple_correct_answers": "false",
+      "explanation": "9 millions de personnes soufflent leurs bougies en même temps que vous. Ça fait déjà pas mal !",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    }
+  ]
