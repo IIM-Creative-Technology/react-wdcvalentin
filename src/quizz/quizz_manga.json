@@ -21,7 +21,6 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "One Piece a plus de quatre cent soixante-dix millions d’exemplaires en circulation dans quarante-trois pays différents, ce qui en fait la série de mangas la plus vendue de tous les temps.",
       "tip": null,
       "tags": [],
@@ -51,7 +50,6 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "Sanji, né Vinsmoke Sanji avant de renoncer à son nom de famille, est surnommé Sanji la Jambe Noire.",
       "tip": null,
       "tags": [],
@@ -80,8 +78,7 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
-      "explanation": "Shingeki no Kynojin est le nom japonais de l'Attaque des Titans et se traduit littérallement par : le géant assaillant",
+      "explanation": "Shingeki no Kyojin est le nom japonais de l'Attaque des Titans et se traduit littérallement par : le géant assaillant",
       "tip": null,
       "tags": [],
       "category": "manga",
@@ -109,7 +106,6 @@
           "isCorrect": true
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "Eren Jäger (japonais : エレン・イェーガー, Hepburn : Eren Yēgā) est un membre du Bataillon d'exploration et le protagoniste principal de la série.",
       "tip": null,
       "tags": [],
@@ -138,7 +134,6 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "Au Japon, l'anime est diffusé sur la chaîne nippone TV Tokyo, en remplacement de Naruto terminé le 8 février 2007. Les 500 épisodes sont diffusés entre le 15 février 2007 et le 23 mars 2017.",
       "tip": null,
       "tags": [],
@@ -167,7 +162,6 @@
           "isCorrect": true
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "97 tomes sont commercialisés au Japon en septembre 2020. La version française est publiée directement en volumes reliés depuis le 1er septembre 2000 par Glénat. 97 volumes sont commercialisés en janvier 2021 en France.",
       "tip": null,
       "tags": [],
@@ -196,7 +190,6 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "Dans Dragon Ball Z, Songoku devient adulte, tombe amoureux en épousant ChiChi et a des enfants, mais surtout il affronte de nouveaux ennemis surpuissants tels que Vegeta, Freezer, Cell ou encore Boo.",
       "tip": null,
       "tags": [],
@@ -225,7 +218,6 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "Koro-Sensei a l'apparence d'une sorte de poulpe jaune. Il mesure environ trois mètres de haut, et possède une grande tête ronde avec un grand sourire et de petits yeux globuleux.",
       "tip": null,
       "tags": [],
@@ -242,7 +234,7 @@
           "isCorrect": true
         },
         {
-          "answer_b": "Razengan",
+          "answer_b": "Rasengan",
           "isCorrect": false
         },
         {
@@ -254,7 +246,6 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "Leur principal atout était le Sharingan, une technique héréditaire d'œil (dōjutsu) unique permettant de copier les techniques de leurs adversaires et d'anticiper leurs mouvements.",
       "tip": null,
       "tags": [],
@@ -283,7 +274,6 @@
           "isCorrect": false
         }
       ],
-      "multiple_correct_answers": "false",
       "explanation": "Hajime Isayama [創 諫山 ], est un mangaka, et est le “père” du désormais célèbre manga : l’Attaque des Titans, un des titres les plus populaires de ces dernières années.",
       "tip": null,
       "tags": [],
