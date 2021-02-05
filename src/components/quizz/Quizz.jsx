@@ -7,48 +7,39 @@ export const Quizz = ({ theme }) => {
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
   const [quizData, setQuizData] = useState([]);
-  // const handleAnswerOptionClick = isCorrect => {
-  //   if (isCorrect) {
-  //     setScore(score + 1);
-  //   }
 
-  //   const nextQuestion = currentQuestion + 1;
-  //   if (nextQuestion < questions.length) {
-  //     setCurrentQuestion(nextQuestion);
-  //   } else {
-  //     setShowScore(true);
-  //   }
-  // };
   const answering = ({answer, isCorrect}) => {
     if (isCorrect) {
       setScore(prevScore => prevScore + 1);
       
     }
   }
-  const getJson = theme => {
+  const getJson = async theme => {
     switch (theme) {
       case "history":
-        return import("../../quizz/quizz_history.json").then(quiz => {
+        return await import("../../quizz/quizz_history.json").then(quiz => {
           setQuizData(quiz.default);
         });
       case "insolite":
-        return import("../../quizz/quizz_insolite.json").then(quiz => {
+        return await import("../../quizz/quizz_insolite.json").then(quiz => {
           setQuizData(quiz.default);
         });
       case "manga":
-        return import("../../quizz/quizz_manga.json").then(quiz => {
+        return await import("../../quizz/quizz_manga.json").then(quiz => {
+          setQuizData(quiz.default);
+        });
+      case "geo":
+        return await import("../../quizz/quizz_geo.json").then(quiz => {
           setQuizData(quiz.default);
         });
       default:
-        break;
+      break;
     }
   };
   useEffect(() => {
     getJson(theme);
   }, [quizData]);
-  // useEffect(() => {
-  //   console.log("quizData", quizData);
-  // }, [quizData]);
+
   return (
     <div>
       Quizz Component
