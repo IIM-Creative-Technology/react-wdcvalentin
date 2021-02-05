@@ -39,6 +39,10 @@ export const Quizz = ({ theme }) => {
         return import("../../quizz/quizz_manga.json").then(quiz => {
           setQuizData(quiz.default);
         });
+      case "geo":
+        return import("../../quizz/quizz_geo.json").then(quiz => {
+          setQuizData(quiz.default);
+        });
       default:
         break;
     }
