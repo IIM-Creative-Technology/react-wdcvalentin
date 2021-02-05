@@ -7,7 +7,8 @@ export const QuizzPage = () => {
   const themes = {
     a: "history",
     b: "insolite",
-    c: "manga"
+    c: "manga",
+    d: "geo"
   };
   function onClick(themes, key) {
     isTheme(themes[key]);

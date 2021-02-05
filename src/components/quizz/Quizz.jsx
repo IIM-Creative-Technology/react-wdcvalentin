@@ -51,8 +51,12 @@ const Quizz = ({ theme }) => {
         return await import("../../quizz/quizz_manga.json").then(quiz => {
           setQuizData(quiz.default);
         });
+      case "geo":
+        return await import("../../quizz/quizz_geo.json").then(quiz => {
+          setQuizData(quiz.default);
+        });
       default:
-        break;
+      break;
     }
   };
 
