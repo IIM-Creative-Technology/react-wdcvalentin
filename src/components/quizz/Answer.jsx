@@ -1,4 +1,3 @@
-export const Answer = ({ answer, index }) => {
-  console.log('answer', answer);
-  return <button key={index}>{answer.answer}</button>;
+export const Answer = ({ answer, index, answering }) => {
+  return <button key={index} onClick={() => answering(answer.isCorrect)}>{answer.answer}</button>;
 };
