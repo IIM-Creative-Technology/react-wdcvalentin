@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Quizz } from "../components/quizz/Quizz";
+import Quizz from "../components/quizz/Quizz";
 
 export const QuizzPage = () => {
   const [isPicked, setIsPicked] = useState(false);
