@@ -5,19 +5,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Des couloirs",
+          "answer": "Des couloirs",
           "isCorrect": false
         },
         {
-          "answer_b": "Des clowns",
+          "answer": "Des clowns",
           "isCorrect": true
         },
         {
-          "answer_c": "Des couleuvres",
+          "answer": "Des couleuvres",
           "isCorrect": false
         },
         {
-          "answer_d": "Des couleurs",
+          "answer": "Des couleurs",
           "isCorrect": false
         }
       ],
@@ -33,20 +33,20 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "L'anglais",
+          "answer": "L'anglais",
           
           "isCorrect": false
         },
         {
-          "answer_b": "Le français",
+          "answer": "Le français",
           "isCorrect": false
         },
         {
-          "answer_c": "Le chinois",
+          "answer": "Le chinois",
           "isCorrect": true
         },
         {
-          "answer_d": "L'espagnol",
+          "answer": "L'espagnol",
           "isCorrect": false
         }
       ],
@@ -62,19 +62,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "10 cm",
+          "answer": "10 cm",
           "isCorrect": true
         },
         {
-          "answer_b": "5 cm",
+          "answer": "5 cm",
           "isCorrect": false
         },
         {
-          "answer_c": "15 cm",
+          "answer": "15 cm",
           "isCorrect": false
         },
         {
-          "answer_d": "2.5 cm",
+          "answer": "2.5 cm",
           "isCorrect": false
         }
       ],
@@ -90,19 +90,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "150 décibels",
+          "answer": "150 décibels",
           "isCorrect": false
         },
         {
-          "answer_b": "1500 décibels",
+          "answer": "1500 décibels",
           "isCorrect": false
         },
         {
-          "answer_c": "140 décibels",
+          "answer": "140 décibels",
           "isCorrect": false
         },
         {
-          "answer_d": "190 décibels",
+          "answer": "190 décibels",
           "isCorrect": true
         }
       ],
@@ -118,19 +118,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Dans son tube digestif",
+          "answer": "Dans son tube digestif",
           "isCorrect": false
         },
         {
-          "answer_b": "Dans sa tête",
+          "answer": "Dans sa tête",
           "isCorrect": true
         },
         {
-          "answer_c": "Dans sa queue",
+          "answer": "Dans sa queue",
           "isCorrect": false
         },
         {
-          "answer_d": "Dans ses antennes",
+          "answer": "Dans ses antennes",
           "isCorrect": false
         }
       ],
@@ -146,19 +146,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "8 fois",
+          "answer": "8 fois",
           "isCorrect": false
         },
         {
-          "answer_b": "12 fois",
+          "answer": "12 fois",
           "isCorrect": false
         },
         {
-          "answer_c": "6 fois",
+          "answer": "6 fois",
           "isCorrect": false
         },
         {
-          "answer_d": "7 fois",
+          "answer": "7 fois",
           "isCorrect": true
         }
       ],
@@ -174,19 +174,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "6300 km",
+          "answer": "6300 km",
           "isCorrect": true
         },
         {
-          "answer_b": "6200 km",
+          "answer": "6200 km",
           "isCorrect": false
         },
         {
-          "answer_c": "6000 km",
+          "answer": "6000 km",
           "isCorrect": false
         },
         {
-          "answer_d": "6100 km",
+          "answer": "6100 km",
           "isCorrect": false
         }
       ],
@@ -202,19 +202,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "La loutre bigleuse",
+          "answer": "La loutre bigleuse",
           "isCorrect": false
         },
         {
-          "answer_b": "Le Kakapo",
+          "answer": "Le Kakapo",
           "isCorrect": true
         },
         {
-          "answer_c": "Le paresseux",
+          "answer": "Le paresseux",
           "isCorrect": false
         },
         {
-          "answer_d": "l'âne",
+          "answer": "l'âne",
           "isCorrect": false
         }
       ],
@@ -230,19 +230,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "206",
+          "answer": "206",
           "isCorrect": true
         },
         {
-          "answer_b": "230",
+          "answer": "230",
           "isCorrect": false
         },
         {
-          "answer_c": "270",
+          "answer": "270",
           "isCorrect": false
         },
         {
-          "answer_d": "225",
+          "answer": "225",
           "isCorrect": false
         }
       ],
@@ -258,19 +258,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "9 millions",
+          "answer": "9 millions",
           "isCorrect": true
         },
         {
-          "answer_b": "900 000",
+          "answer": "900 000",
           "isCorrect": false
         },
         {
-          "answer_c": "9 milliards",
+          "answer": "9 milliards",
           "isCorrect": false
         },
         {
-          "answer_d": "90 000",
+          "answer": "90 000",
           "isCorrect": false
         }
       ],

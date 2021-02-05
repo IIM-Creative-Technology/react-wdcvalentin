@@ -5,19 +5,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "One Piece",
+          "answer": "One Piece",
           "isCorrect": true
         },
         {
-          "answer_b": "Dragon Ball Z",
+          "answer": "Dragon Ball Z",
           "isCorrect": false
         },
         {
-          "answer_c": "Naruto",
+          "answer": "Naruto",
           "isCorrect": false
         },
         {
-          "answer_d": "Fairy Tail",
+          "answer": "Fairy Tail",
           "isCorrect": false
         }
       ],
@@ -33,20 +33,20 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Kuronoshi",
+          "answer": "Kuronoshi",
           
           "isCorrect": false
         },
         {
-          "answer_b": "Vinsmoke",
+          "answer": "Vinsmoke",
           "isCorrect": true
         },
         {
-          "answer_c": "Kunashino",
+          "answer": "Kunashino",
           "isCorrect": false
         },
         {
-          "answer_d": "Zintama",
+          "answer": "Zintama",
           "isCorrect": false
         }
       ],
@@ -62,19 +62,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Shingeki no Kyojin",
+          "answer": "Shingeki no Kyojin",
           "isCorrect": true
         },
         {
-          "answer_b": "Shingeki no Kynojin",
+          "answer": "Shingeki no Kynojin",
           "isCorrect": false
         },
         {
-          "answer_c": "Shogukeki no Soma",
+          "answer": "Shogukeki no Soma",
           "isCorrect": false
         },
         {
-          "answer_d": "Nanatsu no Tazaï",
+          "answer": "Nanatsu no Tazaï",
           "isCorrect": false
         }
       ],
@@ -90,19 +90,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Eren Yäger",
+          "answer": "Eren Yäger",
           "isCorrect": false
         },
         {
-          "answer_b": "Eren Jäager",
+          "answer": "Eren Jäager",
           "isCorrect": false
         },
         {
-          "answer_c": "Eren Yähger",
+          "answer": "Eren Yähger",
           "isCorrect": false
         },
         {
-          "answer_d": "Eren Jäger",
+          "answer": "Eren Jäger",
           "isCorrect": true
         }
       ],
@@ -118,19 +118,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "2017",
+          "answer": "2017",
           "isCorrect": true
         },
         {
-          "answer_b": "2016",
+          "answer": "2016",
           "isCorrect": false
         },
         {
-          "answer_c": "2015",
+          "answer": "2015",
           "isCorrect": false
         },
         {
-          "answer_d": "2019",
+          "answer": "2019",
           "isCorrect": false
         }
       ],
@@ -146,19 +146,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "99",
+          "answer": "99",
           "isCorrect": false
         },
         {
-          "answer_b": "95",
+          "answer": "95",
           "isCorrect": false
         },
         {
-          "answer_c": "96",
+          "answer": "96",
           "isCorrect": false
         },
         {
-          "answer_d": "97",
+          "answer": "97",
           "isCorrect": true
         }
       ],
@@ -174,19 +174,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Sangoku",
+          "answer": "Sangoku",
           "isCorrect": true
         },
         {
-          "answer_b": "Piccolo",
+          "answer": "Piccolo",
           "isCorrect": false
         },
         {
-          "answer_c": "Gohan",
+          "answer": "Gohan",
           "isCorrect": false
         },
         {
-          "answer_d": "ChiChi",
+          "answer": "ChiChi",
           "isCorrect": false
         }
       ],
@@ -202,19 +202,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Rouge",
+          "answer": "Rouge",
           "isCorrect": false
         },
         {
-          "answer_b": "Jaune",
+          "answer": "Jaune",
           "isCorrect": true
         },
         {
-          "answer_c": "Vert",
+          "answer": "Vert",
           "isCorrect": false
         },
         {
-          "answer_d": "Bleu",
+          "answer": "Bleu",
           "isCorrect": false
         }
       ],
@@ -230,19 +230,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Sharingan",
+          "answer": "Sharingan",
           "isCorrect": true
         },
         {
-          "answer_b": "Rasengan",
+          "answer": "Rasengan",
           "isCorrect": false
         },
         {
-          "answer_c": "Boizuzuken",
+          "answer": "Boizuzuken",
           "isCorrect": false
         },
         {
-          "answer_d": "Dojustsu",
+          "answer": "Dojustsu",
           "isCorrect": false
         }
       ],
@@ -258,19 +258,19 @@
       "description": "",
       "answers": [
         {
-          "answer_a": "Le créateur de Shingeki no Kyojin",
+          "answer": "Le créateur de Shingeki no Kyojin",
           "isCorrect": true
         },
         {
-          "answer_b": "Le créateur de One Piece",
+          "answer": "Le créateur de One Piece",
           "isCorrect": false
         },
         {
-          "answer_c": "Le créateur de Fairy Tail",
+          "answer": "Le créateur de Fairy Tail",
           "isCorrect": false
         },
         {
-          "answer_d": "Le créateur de Demon Slayer",
+          "answer": "Le créateur de Demon Slayer",
           "isCorrect": false
         }
       ],
