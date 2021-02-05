@@ -33,15 +33,13 @@ export const Quizz = ({ theme }) => {
           setQuizData(quiz.default);
         });
       default:
-        break;
+      break;
     }
   };
   useEffect(() => {
     getJson(theme);
   }, [quizData]);
-  // useEffect(() => {
-  //   console.log("quizData", quizData);
-  // }, [quizData]);
+
   return (
     <div>
       Quizz Component
