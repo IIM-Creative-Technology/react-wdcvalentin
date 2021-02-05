@@ -14,22 +14,22 @@ export const Quizz = ({ theme }) => {
       
     }
   }
-  const getJson = theme => {
+  const getJson = async theme => {
     switch (theme) {
       case "history":
-        return import("../../quizz/quizz_history.json").then(quiz => {
+        return await import("../../quizz/quizz_history.json").then(quiz => {
           setQuizData(quiz.default);
         });
       case "insolite":
-        return import("../../quizz/quizz_insolite.json").then(quiz => {
+        return await import("../../quizz/quizz_insolite.json").then(quiz => {
           setQuizData(quiz.default);
         });
       case "manga":
-        return import("../../quizz/quizz_manga.json").then(quiz => {
+        return await import("../../quizz/quizz_manga.json").then(quiz => {
           setQuizData(quiz.default);
         });
       case "geo":
-        return import("../../quizz/quizz_geo.json").then(quiz => {
+        return await import("../../quizz/quizz_geo.json").then(quiz => {
           setQuizData(quiz.default);
         });
       default:
