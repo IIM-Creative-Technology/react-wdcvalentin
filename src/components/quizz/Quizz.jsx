@@ -1,68 +1,95 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Answer } from "./Answer";
 import { Question } from "./Question";
 
-export const Quizz = ({ theme }) => {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [showScore, setShowScore] = useState(false);
+const Quizz = ({ theme }) => {
+  const [endComment, setEndComment] = useState('');
+  const [end, setEnd] = useState(false);
   const [score, setScore] = useState(0);
+  const [answeredCount, setAnsweredCount] = useState(0);
   const [quizData, setQuizData] = useState([]);
-  // const handleAnswerOptionClick = isCorrect => {
-  //   if (isCorrect) {
-  //     setScore(score + 1);
-  //   }
 
-  //   const nextQuestion = currentQuestion + 1;
-  //   if (nextQuestion < questions.length) {
-  //     setCurrentQuestion(nextQuestion);
-  //   } else {
-  //     setShowScore(true);
-  //   }
-  // };
-  const answering = ({answer, isCorrect}) => {
-    if (isCorrect) {
-      setScore(prevScore => prevScore + 1);
-      
+  const answering = isCorrect => {
+    setAnsweredCount(prevAnswer => prevAnswer + 1);
+    incrementScore(isCorrect);
+  };
+
+  const isFinish = score => {
+    setEnd(true);
+    switch (score) {
+      case 10:
+        return setEndComment("Parfait");
+      case score < 10:
+        return setEndComment("Super mais tu peux mieux faire !");
+      case score < 5:
+        return setEndComment("Retourne réviser");
+      default:
+        return setEndComment("Fini !");
     }
-  }
-  const getJson = theme => {
+  };
+
+  useEffect(() => {
+    if (answeredCount === 10) {
+      isFinish(score);
+    }
+  }, [answeredCount]);
+
+  const incrementScore = isCorrect =>
+    isCorrect && setScore(prevScore => prevScore + 1);
+
+  const getJson = async theme => {
     switch (theme) {
       case "history":
-        return import("../../quizz/quizz_history.json").then(quiz => {
+        return await import("../../quizz/quizz_history.json").then(quiz => {
           setQuizData(quiz.default);
         });
       case "insolite":
-        return import("../../quizz/quizz_insolite.json").then(quiz => {
+        return await import("../../quizz/quizz_insolite.json").then(quiz => {
           setQuizData(quiz.default);
         });
       case "manga":
-        return import("../../quizz/quizz_manga.json").then(quiz => {
+        return await import("../../quizz/quizz_manga.json").then(quiz => {
           setQuizData(quiz.default);
         });
       default:
         break;
     }
   };
+
   useEffect(() => {
     getJson(theme);
   }, [quizData]);
-  // useEffect(() => {
-  //   console.log("quizData", quizData);
-  // }, [quizData]);
+
   return (
     <div>
-      Quizz Component
-      {quizData &&
-        quizData.map((element, index) => {
-          return (
-            <div key={index}>
-              <Question question={element.question} />
-              {element.answers.map((answer, index) => (
-                <Answer answer={answer} index={index} />
-              ))}
-            </div>
-          );
-        })}
+      {end === true ? (
+        <div>
+          <h1>{endComment}</h1>
+          <h4> score : {score} / 10 </h4>
+          <button onClick={() => window.location='/quizz'}>Retour au Menu</button>
+        </div>
+      ) : (
+        <div>
+          <h4>{score} / 10</h4>
+          {quizData &&
+            quizData.map((element, index) => {
+              return (
+                <div key={index}>
+                  <Question question={element.question} />
+                  {element.answers.map((answer, index) => (
+                    <Answer
+                      answer={answer}
+                      index={index}
+                      answering={answering}
+                    />
+                  ))}
+                </div>
+              );
+            })}
+        </div>
+      )}
     </div>
   );
 };
+
+export default React.memo(Quizz);
