@@ -3,7 +3,11 @@ import React from 'react';
 
 function letStart(props) {
     return (
-        <button className="btn_start_quizz">{props.buttonText}</button>
+        <div>
+            
+        <button className="btn_start_quizz" to="/quizz">{props.buttonText}</button>
+        </div>
+        
     )
 }
 

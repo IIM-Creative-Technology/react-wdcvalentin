@@ -1,8 +1,7 @@
 import React from "react";
 import Logo from "../../atoms/_header_logo";
-import style from "../../App.scss";
 import Nav from "../../atoms/_header_nav";
-
+import style from "../../App.scss";
 function Header() {
   return (
     <div>
@@ -12,9 +11,7 @@ function Header() {
           <Nav />
         </header>
       </section>
-      <section>
-          
-      </section>
+      <section></section>
     </div>
   );
 }

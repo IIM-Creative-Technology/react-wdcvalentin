@@ -1,16 +1,19 @@
-import React from 'react';
-import ContentText from '../atoms/_content_text';
+import React from "react";
 import ContentButton from "../atoms/_content_button";
 
-function letStart(props) {
-    return (
-        <div>
-            <section>
-                <ContentText />
-                <ContentButton buttonText="Accéder aux quizz"/>
-            </section>
-        </div>
-    )
+function contentLeft() {
+  return (
+    <div>
+      <section>
+        <p className="content_text">
+          ENVIE DE <br /> VOUS DÉTENDRE ? <br />
+          HAPPY QUIZZ EST LÀ <br />
+          POUR VOUS !
+        </p>
+        {/* <ContentButton buttonText="Accéder aux quizz" /> */}
+      </section>
+    </div>
+  );
 }
 
-export default letStart;
+export default contentLeft;

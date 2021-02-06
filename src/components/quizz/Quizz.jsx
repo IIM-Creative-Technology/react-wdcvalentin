@@ -3,18 +3,18 @@ import { Answer } from "./Answer";
 import { Question } from "./Question";
 
 const Quizz = ({ theme }) => {
-  const [endComment, setEndComment] = useState('');
+  const [endComment, setEndComment] = useState("");
   const [end, setEnd] = useState(false);
   const [score, setScore] = useState(0);
   const [answeredCount, setAnsweredCount] = useState(0);
   const [quizData, setQuizData] = useState([]);
 
-  const answering = isCorrect => {
-    setAnsweredCount(prevAnswer => prevAnswer + 1);
+  const answering = (isCorrect) => {
+    setAnsweredCount((prevAnswer) => prevAnswer + 1);
     incrementScore(isCorrect);
   };
 
-  const isFinish = score => {
+  const isFinish = (score) => {
     setEnd(true);
     switch (score) {
       case 10:
@@ -34,29 +34,29 @@ const Quizz = ({ theme }) => {
     }
   }, [answeredCount]);
 
-  const incrementScore = isCorrect =>
-    isCorrect && setScore(prevScore => prevScore + 1);
+  const incrementScore = (isCorrect) =>
+    isCorrect && setScore((prevScore) => prevScore + 1);
 
-  const getJson = async theme => {
+  const getJson = async (theme) => {
     switch (theme) {
       case "history":
-        return await import("../../quizz/quizz_history.json").then(quiz => {
+        return await import("../../quizz/quizz_history.json").then((quiz) => {
           setQuizData(quiz.default);
         });
       case "insolite":
-        return await import("../../quizz/quizz_insolite.json").then(quiz => {
+        return await import("../../quizz/quizz_insolite.json").then((quiz) => {
           setQuizData(quiz.default);
         });
       case "manga":
-        return await import("../../quizz/quizz_manga.json").then(quiz => {
+        return await import("../../quizz/quizz_manga.json").then((quiz) => {
           setQuizData(quiz.default);
         });
       case "geo":
-        return await import("../../quizz/quizz_geo.json").then(quiz => {
+        return await import("../../quizz/quizz_geo.json").then((quiz) => {
           setQuizData(quiz.default);
         });
       default:
-      break;
+        break;
     }
   };
 
@@ -70,7 +70,9 @@ const Quizz = ({ theme }) => {
         <div>
           <h1>{endComment}</h1>
           <h4> score : {score} / 10 </h4>
-          <button onClick={() => window.location='/quizz'}>Retour au Menu</button>
+          <button onClick={() => (window.location = "/quizz")}>
+            Retour au Menu
+          </button>
         </div>
       ) : (
         <div>

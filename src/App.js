@@ -3,6 +3,8 @@ import { Error } from "./pages/Error";
 import { Home } from "./pages/Home";
 import { QuizzPage } from "./pages/Quizz";
 
+
+
 function App() {
   return (
     <Router>

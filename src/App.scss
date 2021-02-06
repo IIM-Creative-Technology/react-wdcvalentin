@@ -1,9 +1,11 @@
 @import './sass/header';
 @import './sass/content';
 @import './sass/typographie';
+@import './sass/button.scss';
 
 
 body{
   margin : 0;
   padding : 0;
+  background-color: #FBFEF9 !important;
 }
