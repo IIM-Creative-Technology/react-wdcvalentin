@@ -16,3 +16,56 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
+
+.btn_choice {
+    background-color: $background_btn_choice !important;
+    border: none;
+    color: $color_black;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    border-radius: 8px;
+    margin : 50px 25px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn_answer {
+    background-color: $background_btn!important;
+    border: none;
+    color: white;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    border-radius: 8px;
+    margin : 50px 25px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn_return {
+    background-color: $background_btn!important;
+    border: none;
+    color: white;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    border-radius: 8px;
+    margin : 50px 25px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

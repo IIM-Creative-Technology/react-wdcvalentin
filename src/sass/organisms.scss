@@ -1,0 +1,35 @@
+@import "./helpers/variables.scss";
+
+.quizzBlock {
+  display: flex;
+  justify-content: center;
+  .block_quizz {
+    border: none;
+    background-color: $background_color_quizz !important;
+    text-align: center !important;
+    display: block;
+    padding: 50px 50px;
+    width: 80%;
+    border-radius: 8px;
+    margin-top: 125px;
+    z-index: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .block_result{
+    border: none;
+    background-color: $background_color_quizz !important;
+    text-align: center !important;
+    padding: 50px 50px;
+    width: 60%;
+    border-radius: 8px;
+    margin-top: 125px;
+    z-index: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+}
