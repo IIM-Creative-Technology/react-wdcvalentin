@@ -1,7 +1,6 @@
 import React from "react";
-import ContentButton from "../atoms/_content_button";
 
-function contentLeft() {
+function letStart(props) {
   return (
     <div>
       <section>
@@ -10,10 +9,9 @@ function contentLeft() {
           HAPPY QUIZZ EST LÀ <br />
           POUR VOUS !
         </p>
-        {/* <ContentButton buttonText="Accéder aux quizz" /> */}
       </section>
     </div>
   );
 }
 
-export default contentLeft;
+export default letStart;

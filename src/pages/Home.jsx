@@ -1,6 +1,6 @@
 
-import Header from "../components/quizz/Header"
-import Content from "../components/quizz/Content"
+import Content from "../organisms/home/Content";
+import Header from "../organisms/home/Header";
 
 export const Home = () => {
   return (
