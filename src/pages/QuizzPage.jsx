@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Quizz from "../components/quizz/Quizz";
+import Quizz from "../organisms/Quizz";
 
 export const QuizzPage = () => {
-  const [isPicked, setIsPicked] = useState(false);
-  const [theme, isTheme] = useState("");
+  const [isThemePicked, setIsThemePicked] = useState(false);
+  const [theme, isTheme] = useState('');
   const themes = {
     a: "history",
     b: "insolite",
@@ -12,12 +12,12 @@ export const QuizzPage = () => {
   };
   function onClick(themes, key) {
     isTheme(themes[key]);
-    setIsPicked(true);
+    setIsThemePicked(true);
   }
   return (
     <div>
       <h1>Choisis ton Quizz !</h1>
-      {isPicked ? (
+      {isThemePicked ? (
         <Quizz theme={theme} />
       ) : (
         <div>
