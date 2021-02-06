@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+
     .content_img {
         margin-left: auto;
         width: 550px;
@@ -10,14 +11,19 @@
     }
 
     .content_text {
-        font-display:auto;
+        font-display: auto;
         font-size: 50px;
         font-weight: 700;
+        padding-top: 150px;
     }
 
-    .content_wave{
-        background-size : cover;
-    }
+    
 
+
+}
+
+.content_wave {
+   width: 100%;
+   bottom: 0;
     
 }
