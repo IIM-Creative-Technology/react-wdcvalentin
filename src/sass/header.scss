@@ -1,23 +1,19 @@
-
-
-header{
-    display:grid;
-    margin : 0 110px;
-    margin-top: 25px;
-    grid-template-columns: 1fr 1fr;
-    
+header {
+  margin: 0 110px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #logo_title {
-    cursor: pointer;
-}
-header .navBar{
-    margin-left: auto;
-    font-size: 25px;
-    ul li {
-        display: inline-block;
-        margin : 0 25px
-    }
+  cursor: pointer;
 }
 
-
+header .navBar {
+  margin-left: auto;
+  font-size: 25px;
+  ul li {
+    display: inline-block;
+    margin: 0 25px;
+  }
+}

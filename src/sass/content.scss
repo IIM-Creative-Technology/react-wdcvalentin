@@ -1,8 +1,10 @@
 #content {
   margin : 0 110px;
   margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
 
   .content_img {
     margin-left: auto;
