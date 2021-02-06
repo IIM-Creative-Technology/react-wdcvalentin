@@ -72,7 +72,7 @@ const Quizz = ({ theme, themeTitle }) => {
         <div className="block_result">
           <h1>{endComment}</h1>
           <h4> Ton score : {score} / 10 </h4>
-          <button onClick={() => (window.location = "/quizz")}>
+          <button className="btn_return" onClick={() => (window.location = "/quizz")}>
             Retour au menu
           </button>
         </div>

@@ -51,3 +51,21 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
+
+.btn_return {
+    background-color: $background_btn!important;
+    border: none;
+    color: white;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    border-radius: 8px;
+    margin : 50px 25px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
