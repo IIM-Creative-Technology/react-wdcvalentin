@@ -1,15 +1,19 @@
 import React from "react";
-import style from "../../App.scss";
+import "../../App.scss";
 import flat_quizz from '../../img/flat_quizz.png';
-import ContentLeft from "../../molecules/home/_content_left";
+import content_wave from '../../img/waves.png';
+import {ContentLeft} from "../../molecules/home/ContentLeft";
 
 function Content() {
   return (
     <div>
-      <section>
-        <ContentLeft className={style.content} />
-        <img src={flat_quizz} alt="Flat image Quizz"></img>
+      <section id="content">
+        <ContentLeft/>
+        <img src={flat_quizz} className="content_img" alt="Flat image Quizz"></img>
       </section>
+      
+        <img src={content_wave} className="content_wave" alt="Wave image Quizz"></img>
+      
     </div>
   );
 }
