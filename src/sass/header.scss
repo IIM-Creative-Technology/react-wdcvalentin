@@ -5,9 +5,12 @@ header{
     margin : 0 110px;
     margin-top: 25px;
     grid-template-columns: 1fr 1fr;
-
+    
 }
 
+#logo_title {
+    cursor: pointer;
+}
 header .navBar{
     margin-left: auto;
     font-size: 25px;
