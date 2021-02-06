@@ -1,8 +1,7 @@
 import { useState } from "react";
-import Quizz from "../organisms/Quizz";
-import Header from "../organisms/home/Header";
-import { Footer } from "../atoms/quizz/Footer";
 import "../App.scss";
+import Header from "../organisms/home/Header";
+import { Quizz } from "../organisms/Quizz";
 
 export const QuizzPage = () => {
   const [isThemePicked, setIsThemePicked] = useState(false);
@@ -11,7 +10,7 @@ export const QuizzPage = () => {
     a: "history",
     b: "insolite",
     c: "manga",
-    d: "geo",
+    d: "geo"
   };
 
   function onClick(themes, key) {
@@ -29,6 +28,8 @@ export const QuizzPage = () => {
         return "Manga";
       case "geo":
         return "Géographie";
+      default:
+        break;
     }
   }
 
@@ -37,7 +38,6 @@ export const QuizzPage = () => {
       <Header />
       {isThemePicked ? (
         <Quizz theme={theme} themeTitle={themeTitle} />
-        
       ) : (
         <div className="btn_themes">
           <h1 className="choiceTitle">Choisis ton Quizz !</h1>
@@ -52,7 +52,6 @@ export const QuizzPage = () => {
           ))}
         </div>
       )}
-      <Footer />
     </div>
   );
 };
