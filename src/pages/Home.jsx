@@ -21,7 +21,7 @@ export const Home = () => {
     }
   };
 
-  const toCelsius = (temp) => Math.floor(temp - 273.15);
+  const toCelsius = temp => Math.floor(temp - 273.15);
 
   useEffect(() => {
     getData();

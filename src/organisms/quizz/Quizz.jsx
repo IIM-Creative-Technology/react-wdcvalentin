@@ -22,43 +22,43 @@ export const Quizz = ({ theme, themeTitle }) => {
   const incrementScore = isCorrect =>
     isCorrect && setScore(prevScore => prevScore + 1);
 
-  const nextQuestion = () => {
+  const nextQuestion = (score) => {
     if (indexQuestion + 1 < quizData.length) {
       setIndexQuestion(prevIndex => prevIndex + 1);
-    } else {
+    } else if (indexQuestion + 1 === quizData.length) {
       isFinish(score);
     }
   };
 
   const isFinish = score => {
+    if (score === 10) {
+      setEndComment("Parfait 🔥!");
+    } else if (score >= 5) {
+      setEndComment("Super mais tu peux mieux faire 💪");
+    } else if (score < 5) {
+      setEndComment("Retourne réviser... 😿");
+    }
     setEnd(true);
     localStorage.setItem("score", score);
-    if (score === 10) {
-      return setEndComment("Parfait 🔥!");
-    } else if (score >= 5) {
-      return setEndComment("Super mais tu peux mieux faire 💪");
-    } else if (score < 5) {
-      return setEndComment("Retourne réviser... 😿");
-    }
   };
 
   const getJson = async theme => {
     try {
       switch (theme) {
         case "history":
-          return await import("../quizz/quizz_history.json").then(quiz => {
+          return await import("../../quizz/quizz_history.json").then(quiz => {
             setQuizData(quiz.default);
           });
         case "insolite":
-          return await import("../quizz/quizz_insolite.json").then(quiz => {
+          return await import("../../quizz/quizz_insolite.json").then(quiz => {
             setQuizData(quiz.default);
           });
         case "manga":
-          return await import("../quizz/quizz_manga.json").then(quiz => {
+          return await import("../../quizz/quizz_manga.json").then(quiz => {
             setQuizData(quiz.default);
           });
         case "geo":
-          return await import("../quizz/quizz_geo.json").then(quiz => {
+          return await import("../../quizz/quizz_geo.json").then(quiz => {
             setQuizData(quiz.default);
           });
         default:
