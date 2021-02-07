@@ -9,7 +9,7 @@ URL :
 
 ## Cloner le projet 
 ```
-git clone https://github.com/IIM-Creative-Technology/react-wdcvalentin.git
+git clone https://github.com/IIM-Creative-Technology/react-wdcvalentin.git && cd react-wdcvalentin
 ```
 
 ## Installer les dépendences si besoin 
@@ -26,3 +26,4 @@ npm start
 ou 
 yarn start
 ```
+Enjoy :)
