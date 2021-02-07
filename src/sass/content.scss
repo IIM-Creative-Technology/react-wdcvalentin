@@ -1,0 +1,23 @@
+#content {
+  margin: 0 110px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+
+  .content_img {
+    margin-left: auto;
+    width: 500px;
+    padding-right: 125px;
+  }
+
+  .content_text {
+    font-display: auto;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 150px;
+  }
+}
+
+.btn_themes {
+  text-align: center;
+}

@@ -1,0 +1,283 @@
+[
+    {
+      "id": 1,
+      "question": "Comment appelle-t-on ce qui relie l’océan Atlantique à la mer Méditerranée ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Le canal de Suez",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le détroit de Gibraltar",
+          "isCorrect": true
+        },
+        {
+          "answer": "Le détroit de Malacca",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le canal de Corinthe",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Le détroit de Gibraltar relie l’océan Atlantique à la mer Méditerranée. Ce détroit est situé au sud de l’Espagne, au nord du Maroc, à l’est de l’océan Atlantique et dans l’Ouest de la mer Méditerranée. C'est le seul passage maritime entre l'océan Atlantique et la mer Méditerranée.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "Quel est le désert le plus aride ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Le désert d’Atacama",
+          
+          "isCorrect": true
+        },
+        {
+          "answer": "Le désert de Gobi",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le désert de l'Antarctique",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le désert du Sinaï",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Le désert le plus aride est le désert d’Atacama. Le désert d'Atacama est une région hyperaride d'Amérique du sud située entre l'océan Pacifique Sud et la zone volcanique centrale des Andes, dans le nord du Chili et l'extrême sud du Pérou.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "question": "Quel est le pays d’Europe le plus peuplé ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "France",
+          "isCorrect": true
+        },
+        {
+          "answer": "Italie",
+          "isCorrect": false
+        },
+        {
+          "answer": "Portugal",
+          "isCorrect": false
+        },
+        {
+          "answer": "Allemagne",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "L’Allemagne est le pays d’Europe le plus peuplé. L’Allemagne compte plus de 82 millions d’habitants, la France est le deuxième le plus peuplé d’Europe avec 66,6 millions d’habitants.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 4,
+      "question": "Quel est le plus petit pays du monde ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Vatican",
+          "isCorrect": true
+        },
+        {
+          "answer": "Malte",
+          "isCorrect": false
+        },
+        {
+          "answer": "Monaco",
+          "isCorrect": false
+        },
+        {
+          "answer": "Nauru",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Le Vatican est le pays le plus petit du monde. Le Vatican situé en Europe compte 44 hectares et on la considère comme une ville-état.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "question": "Quel est le pays le plus grand du monde ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Le Canada",
+          "isCorrect": false
+        },
+        {
+          "answer": "La Russie",
+          "isCorrect": true
+        },
+        {
+          "answer": "La Chine",
+          "isCorrect": false
+        },
+        {
+          "answer": "Les Etats-Unis",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "La Russie est le plus grand pays du monde. La densité de population de la Russie est de 8 habitants par km² par exemple pour les Etats-Unis, on a 34 habitants par km²",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 6,
+      "question": "La Tour Eiffel fut construite à l’occasion de :",
+      "description": "",
+      "answers": [
+        {
+          "answer": "La victoire de Napoléon sur les Russes à léna en 1806",
+          "isCorrect": false
+        },
+        {
+          "answer": "La fin de la Révolution française en 1795",
+          "isCorrect": false
+        },
+        {
+          "answer": "La fin de la Guerre Froide en 1991",
+          "isCorrect": false
+        },
+        {
+          "answer": "L’Exposition Universelle de Paris en 1889",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "C’est lors de l’Exposition Universelle de Paris en 1889 qu’à été bâtie la Tour Eiffel.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 7,
+      "question": "Le fleuve le plus long d’Europe est :",
+      "description": "",
+      "answers": [
+        {
+          "answer": "La Volga",
+          "isCorrect": true
+        },
+        {
+          "answer": "Le Rhin",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le Danube",
+          "isCorrect": false
+        },
+        {
+          "answer": "La Seine",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Le fleuve le plus long d’Europe est la Volga. La Volga est long de 3530 km et est située en Russie.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 8,
+      "question": "L’Empire du Milieu est l’autre nom :",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Du Japon",
+          "isCorrect": false
+        },
+        {
+          "answer": "De la Corée",
+          "isCorrect": false
+        },
+        {
+          "answer": "De la Chine",
+          "isCorrect": true
+        },
+        {
+          "answer": "Du Cambodge",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "L’Empire du Milieu désigne la Chine. A l'époque, les dirigeants utilisaient ce terme car ils se considéraient comme le centre de la civilisation",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "question": "Le Pays du Matin calme est :",
+      "description": "",
+      "answers": [
+        {
+          "answer": "La Corée",
+          "isCorrect": true
+        },
+        {
+          "answer": "Le Japon",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le Cambodge",
+          "isCorrect": false
+        },
+        {
+          "answer": "Taiwan",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "L’autre nom de la Corée est le Pays du Matin calme. Le titre était bien adapté à la Corée en raison de la beauté naturelle de ses montagnes magnifiques, de ses eaux limpides et de sa splendide tranquillité en particulier le matin.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "question": "Angkor Wat se trouve :",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Au Pérou",
+          "isCorrect": false
+        },
+        {
+          "answer": "En Chine",
+          "isCorrect": false
+        },
+        {
+          "answer": "Au Cambodge",
+          "isCorrect": true
+        },
+        {
+          "answer": "En Thaïlande",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Angkor Wat se situe au Cambodge. Angkor Wat est le plus grand des temples et le plus grand monument religieux au monde.",
+      "tip": null,
+      "tags": [],
+      "category": "geo",
+      "difficulty": "Easy"
+    }
+  ]
