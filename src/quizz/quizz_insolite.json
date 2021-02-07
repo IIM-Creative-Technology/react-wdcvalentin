@@ -1,0 +1,283 @@
+[
+    {
+      "id": 1,
+      "question": "D'après vous, de quoi a peur un coulrophobe ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Des couloirs",
+          "isCorrect": false
+        },
+        {
+          "answer": "Des clowns",
+          "isCorrect": true
+        },
+        {
+          "answer": "Des couleuvres",
+          "isCorrect": false
+        },
+        {
+          "answer": "Des couleurs",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Ça n'est pas un bruit de couloir, je n'essaye pas de vous faire avaler des couleuvres ni la peur des couleurs mais la coulrophobie est bien la peur irraisonnée... des clowns !",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "La langue la plus parlée au monde est...",
+      "description": "",
+      "answers": [
+        {
+          "answer": "L'anglais",
+          
+          "isCorrect": false
+        },
+        {
+          "answer": "Le français",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le chinois",
+          "isCorrect": true
+        },
+        {
+          "answer": "L'espagnol",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Le chinois mandarin, avec plus de 955 millions de locuteurs natifs.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "question": "Si toute la pluie contenue dans l'atmosphère tombait en même temps , elle couvrirait la Terre d'une couche d'eau de...",
+      "description": "",
+      "answers": [
+        {
+          "answer": "10 cm",
+          "isCorrect": true
+        },
+        {
+          "answer": "5 cm",
+          "isCorrect": false
+        },
+        {
+          "answer": "15 cm",
+          "isCorrect": false
+        },
+        {
+          "answer": "2.5 cm",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Elle recouvrirait notre planète d'un manteau de 2,5 cm d'épaisseur (quand même !)",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 4,
+      "question": "Le chant des baleines à bosses peut atteindre...",
+      "description": "",
+      "answers": [
+        {
+          "answer": "150 décibels",
+          "isCorrect": false
+        },
+        {
+          "answer": "1500 décibels",
+          "isCorrect": false
+        },
+        {
+          "answer": "140 décibels",
+          "isCorrect": false
+        },
+        {
+          "answer": "190 décibels",
+          "isCorrect": true
+        }
+      ],
+      "explanation": " Bruyantes, ces baleines: 190 décibels ! C'est autant qu'un Boeing 747 au décollage.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "question": "Le cœur de la crevette est placé...",
+      "description": "",
+      "answers": [
+        {
+          "answer": "Dans son tube digestif",
+          "isCorrect": false
+        },
+        {
+          "answer": "Dans sa tête",
+          "isCorrect": true
+        },
+        {
+          "answer": "Dans sa queue",
+          "isCorrect": false
+        },
+        {
+          "answer": "Dans ses antennes",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Une grande romantique, cette crevette ! Aussi étrange que cela puisse paraître, son cœur est situé dans sa tête.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 6,
+      "question": "Aucune feuille de papier, quelle que soit sa taille, ne peut être pliée sur elle-même plus de...",
+      "description": "",
+      "answers": [
+        {
+          "answer": "8 fois",
+          "isCorrect": false
+        },
+        {
+          "answer": "12 fois",
+          "isCorrect": false
+        },
+        {
+          "answer": "6 fois",
+          "isCorrect": false
+        },
+        {
+          "answer": "7 fois",
+          "isCorrect": true
+        }
+      ],
+      "explanation": " Faites le test ! Vous ne pourrez pas plier votre feuille plus de 7 fois sur elle-même.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 7,
+      "question": "La distance entre le centre et la surface de la Terre est d'environ...",
+      "description": "",
+      "answers": [
+        {
+          "answer": "6300 km",
+          "isCorrect": true
+        },
+        {
+          "answer": "6200 km",
+          "isCorrect": false
+        },
+        {
+          "answer": "6000 km",
+          "isCorrect": false
+        },
+        {
+          "answer": "6100 km",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "La Terre n'est pas parfaitement sphérique et les distances entre sa surface et son centre varient de 6 352,8 km (fond de l'océan Arctique) à 6 384,415 km (sommet du Chimborazo).",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 8,
+      "question": "Comment s'appelle l'un des animaux les plus stupides du monde ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "La loutre bigleuse",
+          "isCorrect": false
+        },
+        {
+          "answer": "Le Kakapo",
+          "isCorrect": true
+        },
+        {
+          "answer": "Le paresseux",
+          "isCorrect": false
+        },
+        {
+          "answer": "l'âne",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Il s'agit du Kakapo, un oiseau qui, à défaut d'avoir évolué au contact de prédateurs, n'a jamais appris à se défendre seul... et s'est complètement fait décimer.",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "question": "A la naissance, notre squelette compte environ 270 os. Mais combien en dénombre-t-on une fois adulte ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "206",
+          "isCorrect": true
+        },
+        {
+          "answer": "230",
+          "isCorrect": false
+        },
+        {
+          "answer": "270",
+          "isCorrect": false
+        },
+        {
+          "answer": "225",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Un bébé naît avec environ 270 os mous. Les petits os au niveau du crâne, de la colonne vertébrale et du bassin durcissent et se soudent par la suite pour ne former qu’un ensemble. Ainsi, en bas de la colonne vertébrale, les quatre dernières vertèbres se collent entre elles pour ne plus former qu’un seul os : le coccyx. Quand ces soudures s’achèvent, vers 20/25 ans, il reste à l’adulte environ 206 os distincts. Ceux des mains et des pieds représentent plus de la moitié de l’effectif : 26 os pour un pied et 27 os pour une main. Viennent ensuite les vertèbres (24), les côtes (24), la tête (22)…",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "question": "A votre avis, combien de personnes fêtent leur anniversaire le même jour que vous dans le monde ?",
+      "description": "",
+      "answers": [
+        {
+          "answer": "9 millions",
+          "isCorrect": true
+        },
+        {
+          "answer": "900 000",
+          "isCorrect": false
+        },
+        {
+          "answer": "9 milliards",
+          "isCorrect": false
+        },
+        {
+          "answer": "90 000",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "9 millions de personnes soufflent leurs bougies en même temps que vous. Ça fait déjà pas mal !",
+      "tip": null,
+      "tags": [],
+      "category": "insolites",
+      "difficulty": "Easy"
+    }
+  ]
