@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Answer } from "../atoms/quizz/Answer";
-import { Question } from "../atoms/quizz/Question";
+import { Answer } from "../../atoms/quizz/Answer";
+import { Question } from "../../atoms/quizz/Question";
+import { EndQuiz } from "../../molecules/EndQuiz";
 
-const Quizz = ({ theme, themeTitle }) => {
+export const Quizz = ({ theme, themeTitle }) => {
   const [quizData, setQuizData] = useState(null);
   const [score, setScore] = useState(0);
   const [indexQuestion, setIndexQuestion] = useState(0);
@@ -31,6 +32,7 @@ const Quizz = ({ theme, themeTitle }) => {
 
   const isFinish = score => {
     setEnd(true);
+    localStorage.setItem("score", score);
     if (score === 10) {
       return setEndComment("Parfait 🔥!");
     } else if (score >= 5) {
@@ -69,17 +71,8 @@ const Quizz = ({ theme, themeTitle }) => {
 
   return (
     <div className="quizzBlock">
-      {end === true ? (
-        <div className="block_result">
-          <h1>{endComment}</h1>
-          <h4> Ton score : {score} / 10 </h4>
-          <button
-            className="btn_return"
-            onClick={() => (window.location = "/quizz")}
-          >
-            Retour au menu
-          </button>
-        </div>
+      {end ? (
+        <EndQuiz endComment={endComment} score={score} />
       ) : (
         <div className="block_quizz">
           <h1>{themeTitle(theme)}</h1>
@@ -100,5 +93,3 @@ const Quizz = ({ theme, themeTitle }) => {
     </div>
   );
 };
-
-export default React.memo(Quizz);

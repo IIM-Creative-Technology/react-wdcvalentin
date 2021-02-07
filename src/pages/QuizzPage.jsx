@@ -1,8 +1,7 @@
 import { useState } from "react";
 import "../App.scss";
-import { Footer } from "../atoms/quizz/Footer";
 import Header from "../organisms/home/Header";
-import Quizz from "../organisms/Quizz";
+import { Quizz } from "../organisms/quizz/Quizz";
 
 export const QuizzPage = () => {
   const [isThemePicked, setIsThemePicked] = useState(false);
@@ -29,6 +28,8 @@ export const QuizzPage = () => {
         return "Manga";
       case "geo":
         return "Géographie";
+      default:
+        break;
     }
   }
 
@@ -51,7 +52,6 @@ export const QuizzPage = () => {
           ))}
         </div>
       )}
-      <Footer />
     </div>
   );
 };

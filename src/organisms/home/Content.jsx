@@ -1,9 +1,7 @@
 import React from "react";
 import "../../App.scss";
-import { Footer } from "../../atoms/quizz/Footer";
 import flat_quizz from "../../img/flat_quizz.png";
 import { ContentLeft } from "../../molecules/home/ContentLeft";
-
 function Content() {
   return (
     <div>
@@ -12,11 +10,9 @@ function Content() {
         <img
           src={flat_quizz}
           className="content_img"
-          alt="Flat image Quizz"
+          alt="Flat Quizz"
         ></img>
       </section>
-
-      <Footer />
     </div>
   );
 }
