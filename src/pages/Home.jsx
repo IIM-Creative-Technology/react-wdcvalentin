@@ -26,6 +26,7 @@ export const Home = () => {
     getData();
   }, []);
 
+  
   return (
     <div>
       <Header temp={toCelsius(temp)} city={city} country={country} />
