@@ -3,7 +3,7 @@
 Valentin WACHE DE CORBIE & Céline TIA 
 
 # Lien vers le site 
-URL : 
+URL : https://happyquizz.netlify.app/
 
 # Comment installer le projet 
 ## Cloner le projet 
