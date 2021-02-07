@@ -6,7 +6,6 @@ Valentin WACHE DE CORBIE & Céline TIA
 URL : 
 
 # Comment installer le projet 
-
 ## Cloner le projet 
 ```
 git clone https://github.com/IIM-Creative-Technology/react-wdcvalentin.git && cd react-wdcvalentin
