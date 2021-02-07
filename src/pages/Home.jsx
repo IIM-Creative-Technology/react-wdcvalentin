@@ -15,7 +15,7 @@ export const Home = () => {
     const getData = async () => {
       try {
         const API_call = await fetch(
-          `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${keyApi}`
+          `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${keyApi}`
         );
         const response = await API_call.json();
         setTemp(response.main.temp);
