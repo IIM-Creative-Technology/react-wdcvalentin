@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../App.scss";
 import Header from "../organisms/home/Header";
-import { Quizz } from "../organisms/Quizz";
+import { Quizz } from "../organisms/quizz/Quizz";
 
 export const QuizzPage = () => {
   const [isThemePicked, setIsThemePicked] = useState(false);
