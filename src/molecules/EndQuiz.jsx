@@ -1,4 +1,4 @@
-export const EndQuiz = ({endComment, score}) => {
+export const EndQuiz = ({ endComment, score }) => {
   return (
     <div className="block_result">
       <h1>{endComment}</h1>

@@ -1,0 +1,11 @@
+@import "./header";
+@import "./content";
+@import "./typographie";
+@import "./button.scss";
+@import "./footer.scss";
+@import "./organisms.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}

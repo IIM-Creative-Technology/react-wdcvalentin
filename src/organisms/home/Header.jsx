@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import style from "../../App.scss";
+import style from "../../sass/App.scss";
 
 function Header({ temp, city, country }) {
   const [score, setScore] = useState(null);
