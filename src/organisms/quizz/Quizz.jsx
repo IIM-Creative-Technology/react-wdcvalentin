@@ -11,8 +11,36 @@ export const Quizz = ({ theme, themeTitle }) => {
   const [endComment, setEndComment] = useState("");
 
   useEffect(() => {
+    const getJson = async theme => {
+      try {
+        switch (theme) {
+          case "history":
+            return await import("../../quizz/quizz_history.json").then(quiz => {
+              setQuizData(quiz.default);
+            });
+          case "insolite":
+            return await import("../../quizz/quizz_insolite.json").then(
+              quiz => {
+                setQuizData(quiz.default);
+              }
+            );
+          case "manga":
+            return await import("../../quizz/quizz_manga.json").then(quiz => {
+              setQuizData(quiz.default);
+            });
+          case "geo":
+            return await import("../../quizz/quizz_geo.json").then(quiz => {
+              setQuizData(quiz.default);
+            });
+          default:
+            break;
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    };
     getJson(theme);
-  }, [quizData]);
+  }, [theme]);
 
   const answering = isCorrect => {
     nextQuestion(score);
@@ -22,7 +50,7 @@ export const Quizz = ({ theme, themeTitle }) => {
   const incrementScore = isCorrect =>
     isCorrect && setScore(prevScore => prevScore + 1);
 
-  const nextQuestion = (score) => {
+  const nextQuestion = score => {
     if (indexQuestion + 1 < quizData.length) {
       setIndexQuestion(prevIndex => prevIndex + 1);
     } else if (indexQuestion + 1 === quizData.length) {
@@ -40,33 +68,6 @@ export const Quizz = ({ theme, themeTitle }) => {
     }
     setEnd(true);
     localStorage.setItem("score", score);
-  };
-
-  const getJson = async theme => {
-    try {
-      switch (theme) {
-        case "history":
-          return await import("../../quizz/quizz_history.json").then(quiz => {
-            setQuizData(quiz.default);
-          });
-        case "insolite":
-          return await import("../../quizz/quizz_insolite.json").then(quiz => {
-            setQuizData(quiz.default);
-          });
-        case "manga":
-          return await import("../../quizz/quizz_manga.json").then(quiz => {
-            setQuizData(quiz.default);
-          });
-        case "geo":
-          return await import("../../quizz/quizz_geo.json").then(quiz => {
-            setQuizData(quiz.default);
-          });
-        default:
-          break;
-      }
-    } catch (error) {
-      console.error(error);
-    }
   };
 
   return (
