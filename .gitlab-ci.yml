@@ -1,0 +1,43 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  image: node:14
+  script:
+    - echo "Start building App"
+    - npm install
+    - npm run-script build
+    - echo "Build successfully!"
+  artifacts:
+    expire_in: 1 hour
+    paths:
+      - build
+      - node_modules/
+  only:
+    - main
+
+test:
+  stage: test
+  image: node
+  script:
+    - echo "Testing App"
+    - npm install
+    - npm test App.test.js
+    - echo "Test Passed successfully"
+  cache:
+    paths:
+      - ./node_modules
+  only:
+    - master
+
+deploy:
+  stage: deploy
+  image: ruby:2.7
+  script:
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_APP --api-key=$HEROKU_API_KEY --skip_cleanup=true
+  only:
+    - master
