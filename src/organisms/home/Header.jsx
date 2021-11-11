@@ -16,7 +16,7 @@ function Header({ temp, city, country }) {
           Température à {city},{country} : {temp}°C{" "}
         </h3>
       ) : null}
-      {score ? <h3> Dernier score : {score} </h3> : null}
+      {score && <h3> Dernier score : {score} </h3>}
     </header>
   );
 }
