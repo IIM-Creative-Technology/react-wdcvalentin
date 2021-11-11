@@ -11,11 +11,11 @@ function Header({ temp, city, country }) {
       <h1 id="logo_title" onClick={() => (window.location = "/")}>
         Happy Quizz
       </h1>
-      {temp ? (
+      {temp && (
         <h3>
           Température à {city},{country} : {temp}°C{" "}
         </h3>
-      ) : null}
+      )}
       {score && <h3> Dernier score : {score} </h3>}
     </header>
   );
