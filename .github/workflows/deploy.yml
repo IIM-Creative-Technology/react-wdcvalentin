@@ -9,7 +9,7 @@ on:
 jobs:
   STAGING:
     runs-on: ubuntu-latest
-    environnement: STAGING
+    environment: STAGING
 
     steps:
       - name: "Init repository"
@@ -42,7 +42,7 @@ jobs:
 
   PROD:
     runs-on: ubuntu-latest
-    environnement: PROD
+    environment: PROD
 
     steps:
       - name: "Init repository"
