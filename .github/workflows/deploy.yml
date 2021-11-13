@@ -29,11 +29,11 @@ jobs:
       - name: "Run tests"
         run: npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
       
-      # - name: 'Install ruby'
-      #   uses: ruby/setup-ruby@v1
+      - name: 'Install ruby'
+        uses: ruby/setup-ruby@v1
 
-      # - name: 'Install DPL'
-      #   run: gem install dpl
+      - name: 'Install DPL'
+        run: gem install dpl
 
-      # - name: 'Install DPL'
-      #   run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
+      - name: 'Install DPL'
+        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
