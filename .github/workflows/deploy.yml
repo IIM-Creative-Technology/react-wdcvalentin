@@ -31,6 +31,8 @@ jobs:
       
       - name: 'Install ruby'
         uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
 
       - name: 'Install DPL'
         run: gem install dpl
