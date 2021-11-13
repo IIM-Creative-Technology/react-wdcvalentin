@@ -7,9 +7,9 @@ on:
     branches: [ main, develop ]
 
 jobs:
-  ci-cd:
-    name: CI/CD
+  STAGING:
     runs-on: ubuntu-latest
+    environment: STAGING
 
     steps:
       - name: "Init repository"
@@ -36,9 +36,39 @@ jobs:
 
       - name: 'Install DPL'
         run: gem install dpl
+      
+      - name: 'Deploying preprod'
+        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
 
+  PROD:
+    runs-on: ubuntu-latest
+    environment: PROD
+
+    steps:
+      - name: "Init repository"
+        uses: actions/checkout@v2
+
+      - name: "Setup Node"
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: "Install dependencies"
+        run: npm install
+
+      - name: "Build app"
+        run: npm run build
+
+      - name: "Run tests"
+        run: npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+      
+      - name: 'Install ruby'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: 'Install DPL'
+        run: gem install dpl
+      
       - name: 'Deploying prod'
         run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
-    
-      # - name: 'Deploying preprod'
-      #   run: dpl --provider=heroku --app=${{secrets.HEROKU_APP_PREPROD}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
