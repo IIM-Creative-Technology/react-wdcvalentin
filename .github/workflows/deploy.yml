@@ -31,9 +31,14 @@ jobs:
       
       - name: 'Install ruby'
         uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
 
       - name: 'Install DPL'
         run: gem install dpl
 
-      - name: 'Install DPL'
+      - name: 'Deploying prod'
         run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
+    
+      # - name: 'Deploying preprod'
+      #   run: dpl --provider=heroku --app=${{secrets.HEROKU_APP_PREPROD}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true

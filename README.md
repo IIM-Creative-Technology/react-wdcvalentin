@@ -1,9 +1,7 @@
 # Happy Quizz 
 
-Valentin WACHE DE CORBIE & Céline TIA 
-
 # Lien vers le site 
-URL : https://happyquizz.netlify.app/
+URL prod: https://react-wdcvalentin.herokuapp.com/
 
 # Comment installer le projet 
 ## Cloner le projet 
@@ -11,7 +9,7 @@ URL : https://happyquizz.netlify.app/
 git clone https://github.com/IIM-Creative-Technology/react-wdcvalentin.git && cd react-wdcvalentin
 ```
 
-## Installer les dépendences si besoin 
+## Installer les dépendences
 ```
 npm install
 ou 
@@ -26,3 +24,8 @@ ou
 yarn start
 ```
 Enjoy :)
+
+## CI/CD
+-   Lorsque l'on push, une pipeline se met en route à l'aide du fichier deploy.yml qui se trouve dans le dossier      caché .github
+-   Dans ce fichier, je définis quand je veux lancer la pipeline (pull-request, branche ...)
+-   Ensuite je précise les steps à faire pour pouvoir lancer le projet, faire les tests unitaires et déployer sur     heroku
