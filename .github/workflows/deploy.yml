@@ -38,7 +38,7 @@ jobs:
         run: gem install dpl
 
       - name: 'Deploying prod'
-        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}}
+        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
     
       # - name: 'Deploying preprod'
       #   run: dpl --provider=heroku --app=${{secrets.HEROKU_APP_PREPROD}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
