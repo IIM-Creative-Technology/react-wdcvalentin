@@ -1,0 +1,57 @@
+stages:
+  - build
+  # - test
+  # - quality
+  # - deploy
+
+build_job:
+  stage: build
+  only:
+    - main
+  script:
+    - npm install
+    - npm build
+  image: node:14
+  cache:
+    paths:
+      - node_modules/
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 hour
+
+test_job:
+  stage: test
+  script:
+    - yarn install
+    - yarn test:unit
+  image: node:14
+
+code_quality_job:
+  stage: quality
+  image: docker:stable
+  allow_failure: true
+  services:
+    - docker:stable-dind
+  script:
+    - mkdir codequality-results
+    - docker run
+        --env CODECLIMATE_CODE="$PWD"
+        --volume "$PWD":/code
+        --volume /var/run/docker.sock:/var/run/docker.sock
+        --volume /tmp/cc:/tmp/cc
+        codeclimate/codeclimate analyze -f html > ./codequality-results/index.html
+  artifacts:
+    paths:
+      - codequality-results/
+
+production_job:
+  stage: deploy
+  image: python:alpine # déploiement sur python pour AWS
+  only:
+    - main
+  script:
+    - pip install awscli
+    # On se connecte au bucket (S3 AWS)
+    # On reprend les dossiers de l'artifact qu'on a créé dans le build (plus haut)
+    - aws s3 sync ./dist s3://iimtestbis
